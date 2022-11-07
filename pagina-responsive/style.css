@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2? family= Poppins:wght@200;500 & display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 120, 121, 255);
+  background-image: url(wallpaper.png);
+}
+
+
+form input:required:invalid{
+  background-image: url(icon-error.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  
+}
+
+.fondo {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+  font-family: "Poppins", sans-serif;
+}
+.centrar-contenido {
+  flex-direction: row;
+  display: flex;
+  padding: 0 20% 0 20%;
+}
+
+.texto {
+  color: white;
+  text-align: justify;
+  padding-top: 3vh;
+  padding-right: 9vh;
+}
+h1 {
+  text-align: left;
+  font-size: 5.8vh;
+}
+
+.formulario {
+  text-align: center;
+  display: block;
+  padding: 0.5em 1.5em 0.5em 0;
+  flex-direction: column;
+}
+
+.pruebalo {
+  color: white;
+  background: rgb(95, 84, 165, 255);
+  border-radius: 7px;
+  font-size: 1.5vh;
+  padding: 1.2vh 1.4vh 1.2vh 1.4vh;
+  margin-bottom: 1.5vh;
+}
+strong{
+    font-size: 15px;
+    background: none;
+}
+input {
+  border: 1px solid rgb(143, 142, 142);
+  border-radius: 7px;
+  width: 90%;
+  padding: 0.8em;
+  margin-bottom: 0.5rem;
+  background: none;
+}
+form {
+  
+  border-radius: 7px;
+  background: white;
+  padding-top: 1.5vh;
+  padding-bottom: 1.7vh;
+}
+
+.boton {
+  background: rgb(58, 203, 139, 255);
+  border: 0cm;
+  width: 95%;
+  border-radius: 5px;
+  color: white;
+  padding: 1.2vh 0;
+  margin-top: 0.4vh;
+  margin-bottom: 1.7vh;
+}
+.terminos1 {
+  font-size: 1.3vh;
+  background: none;
+}
+.terminos2 {
+  color: red;
+  background: none;
+}
+@media (max-width: 950px) {
+  .centrar-contenido {    
+    padding: 0 10% 0 10%;
+  }
+  .texto{
+    padding-right: 5%;
+  }
+
+}
+
+@media (max-width: 850px) {
+  * {
+    padding: 0;
+    margin: 0;
+    
+  }
+  .centrar-contenido {
+    flex-direction: column;
+    display: flex;
+    padding: 0 10% 0 10%;
+    margin: 0;
+  }
+  .formulario{
+    margin: 0;
+    padding: 0;
+    
+  }
+  h1{    
+    text-align: center;
+    font-size:25px;
+  }
+  .parrafo-fondo{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  .fondo{
+    height: 80vh;
+    margin: 0;
+    padding: 1.5vh;
+  }
+ 
+  .texto{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+
+
+}
+
+
+
